@@ -7,6 +7,9 @@
 ![](http://static.runoob.com/images/runoob-logo.png)
 ## 二、聚类
 ### 1、起点聚类
+目标：
+算法：
+结果：
 起点分布图：   
 ![](http://static.runoob.com/images/runoob-logo.png)   
 用k-means进行聚类，k=3，聚类结果如下：   
