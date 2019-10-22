@@ -1,5 +1,5 @@
 # 挖掘机小组：中期作业实验报告
-## 小组成员：林蒙 曾欣科 张云霞 徐铭美 冯李逍 郑文寅 程南江 陈宇 雷小唐 蒲文博（排名不分先后） 
+## 小组成员：林蒙 曾欣科 张云霞 徐铭美 冯李逍 郑文银 程南江 陈宇 雷小唐 蒲文博（排名不分先后） 
 ## 一、目的
 对绵阳出租车起点、终点坐标进行起点聚类、终点聚类和OD线聚类。
 ## 一、数据说明
@@ -42,7 +42,8 @@ addAwesomeMarkers(global_map, lng = ~Lng, lat = ~Lat, icon = icon.red, data = st
 起点分布图：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9.png)   
 用k-means进行聚类，k=3，聚类结果如下：   
-![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB.png)
+![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB.png)   
+结果分析：
 ### 2、终点聚类
 目标：对终点坐标进行聚类   
 算法：
