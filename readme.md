@@ -44,7 +44,7 @@ addAwesomeMarkers(global_map, lng = ~Lng, lat = ~Lat, icon = icon.red, data = st
 用k-means进行聚类，k=3，聚类结果如下：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB.png)
 ### 2、终点聚类
-目标：对终点坐标进行聚类
+目标：对终点坐标进行聚类   
 算法：
 ```{r}
 install.packages("leaflet") # 安装地图
@@ -82,7 +82,7 @@ addAwesomeMarkers(global_map, lng = ~Lng, lat = ~Lat, icon = icon.red, data = st
 用k-means进行聚类，k=3，聚类结果如下：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E7%BB%88%E7%82%B9%E8%81%9A%E7%B1%BB.png)
 ### 3、OD线聚类
-目标：对OD线进行聚类
+目标：对OD线进行聚类   
 算法：
 ```{r}
 install.packages("leaflet") # 安装地图
