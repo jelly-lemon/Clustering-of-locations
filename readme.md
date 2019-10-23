@@ -73,7 +73,8 @@ PAM聚类，k=6：
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB%20k%3D6.png)   
 PAM聚类，k=7：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB%20k%3D7.png)   
-#### 分析：   
+#### 分析：  
+![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E8%B5%B7%E7%82%B9%E8%81%9A%E7%B1%BB%20k%3D3.png)    
 对于起点数据，本组采用PAM方法分别将绵阳市区内所有的起始点聚为2,3,4,5,6,7,个类（聚类结果分别如上图所示）。   
 最后经过比较，选取了K值为3的聚类结果，并通过绿、红、蓝三个颜色进行标记区分。   
 从地域上看，第一部分为涪城区以南的区域（绿色部分），相比其它区域起点数量较少。   
@@ -133,6 +134,7 @@ PAM聚类，k=6，聚类结果如下：
 PAM聚类，k=7，聚类结果如下：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E7%BB%88%E7%82%B9%E8%81%9A%E7%B1%BB%20k%3D7.png)
 #### 分析：
+![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E7%BB%88%E7%82%B9%E8%81%9A%E7%B1%BB%20k%3D3.png)
 对于终点数据，同样采用PAM方法分别将绵阳市区内的终点聚为2,3,4,5,6,7个类（如上图所示）。   
 最后经过比较，选取了K值为3的聚类结果，通过绿、红、蓝三个颜色进行标记区分。   
 从区域分布上看，与起点聚类分布较为相似：   
@@ -194,6 +196,7 @@ PAM聚类，k=3，聚类结果如下：
 PAM聚类，k=4，聚类结果如下：   
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E7%BA%BF%E8%81%9A%E7%B1%BB%20k%3D4.png)
 #### 分析：   
+![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/%E7%BA%BF%E8%81%9A%E7%B1%BB%20k%3D3.png)
 对于OD线的聚类，本组选取每条OD线的中点，再使用PAM方法来进行聚类。   
 聚类前的OD线分布如上图一所示，红色代表终点，蓝色代表起点（其中部分既为起点，又是终点的点在标记时出现了覆盖现象，所以图中显示的红色点较多）。   
 并分别取K值为2,3,4来进行聚类比较，最终取K=3来作为最终的聚类值（结果如图所示），分别用绿，蓝，红三色标记区分这三类OD线。   
