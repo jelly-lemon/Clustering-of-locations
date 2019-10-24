@@ -52,7 +52,7 @@
 ## 一、目的
 对绵阳出租车起点、终点坐标进行起点聚类、终点聚类和OD线聚类。
 ## 一、数据说明
-一个csv文件，包含了起点经度、纬度，还有终点经度、维度。  
+一个csv文件，包含了起点经度、纬度，还有终点经度、纬度。  
 ![](https://github.com/jelly-lemon/midterm_homework/blob/master/image/csv%E6%96%87%E4%BB%B6.png)
 ## 二、聚类
 ### 1、起点聚类
